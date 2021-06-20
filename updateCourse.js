@@ -19,7 +19,6 @@ app.put('/api/interpreters/:id',(req,res)=>{ //we have :id for reference
     console.log(theInterpreter)
     if (!theInterpreter) {
         res.status(404).send('The Interpreter does not exist')
-        res.send(interpreters)
         return
     }
 
