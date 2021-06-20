@@ -1,7 +1,6 @@
 {
   "name": "with-express",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "accepts": "^1.3.7",
@@ -59,9 +58,20 @@
   },
   "devDependencies": {},
   "scripts": {
+    "myScript":"node testApp.js", 
+    "mygit":"git add . && git commit -m \"updated\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Abouzar <abouzar.azarpira@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/negahbaneatash/with-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/negahbaneatash/with-express/issues"
+  },
+  "homepage": "https://github.com/negahbaneatash/with-express#readme",
+  "description": ""
 }
