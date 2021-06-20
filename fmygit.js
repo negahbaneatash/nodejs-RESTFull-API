@@ -12,7 +12,7 @@ exec("git add .", () => {
   // we write it here to be executed after 'git add .'
   exec(`git commit -m "${commitMessage}"`, () => {
     console.log("everything was commited by this message:", commitMessage);
-    exec("git push");
+    exec("git push", console.log("everything was pushed to repository"));
   });
 });
 
