@@ -57,9 +57,8 @@
     "vary": "^1.1.2"
   },
   "devDependencies": {},
-  "scripts": {
-    "myScript":"node testApp.js", 
-    "mygit":"git add . && git commit -m \"updated\" ",
+  "scripts": {    
+    "mygit":"node fmygit.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
